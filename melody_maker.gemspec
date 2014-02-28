@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = MelodyMaker::VERSION
   spec.authors       = ["John Kasiewicz"]
   spec.email         = ["crestcode@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{MelodyMaker is a Ruby gem to easily generate random musical melodies for fun and profit.}
+  spec.summary       = %q{MelodyMaker is a Ruby gem to easily generate random musical melodies for fun and profit.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 end

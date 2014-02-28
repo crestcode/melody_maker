@@ -1,6 +1,6 @@
 # MelodyMaker
 
-MelodyMaker is a Ruby gem to easily generate random musical melodies for practice and profit.
+MelodyMaker is a Ruby gem to easily generate random musical melodies for fun and profit.
 
 ## Installation
 
