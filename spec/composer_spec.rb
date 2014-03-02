@@ -9,8 +9,8 @@ module MelodyMaker
         Composer.new.compose.should be_a(Array)
       end
 
-      it "returns an array with 7 elements by default" do
-        expect(Composer.new.compose.size).to eq(7)
+      it "returns an array with 9 elements by default" do
+        expect(Composer.new.compose.size).to eq(9)
       end
 
       it "returns an array with X elements when X is passed in" do

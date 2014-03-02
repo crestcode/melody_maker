@@ -1,7 +1,7 @@
 module MelodyMaker
   class Composer
 
-    def compose(melody_length=7)
+    def compose(melody_length=9)
       Array.new(melody_length) { random_pitch }
     end
 
